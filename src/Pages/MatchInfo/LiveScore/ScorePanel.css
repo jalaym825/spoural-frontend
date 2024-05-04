@@ -1,0 +1,13 @@
+/* @media  only screen and (max-width: 600px) {
+    .buttons {
+      display: grid;
+      height:full;
+      width: full;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+    }
+    .buttons button{
+    }
+  }
+   */

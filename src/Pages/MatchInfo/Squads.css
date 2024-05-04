@@ -1,0 +1,43 @@
+@media only screen and (max-width: 680px) {
+    .mainsquads {
+        width: 680px;
+        overflow-y: scroll;
+    }
+
+    .squads1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 650px;
+    }
+
+    .squads2 {
+        width: 650px;
+
+    }
+
+    .squads3 {
+        width: 650px;
+
+    }
+
+    .squads21 {
+        border-radius: 10px;
+    }
+
+    .squads31 {
+        border-radius: 10px;
+
+    }
+
+    .squads22 {
+        border-left-width: 1px;
+
+    }
+
+    .squads32 {
+        border-right-width: 1px;
+    }
+
+
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1190px) {
+    .match2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .match2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow-y: visible;
+    }
+    .match1{
+        width: 100%;
+    }
+}

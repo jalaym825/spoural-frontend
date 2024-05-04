@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1190px) {
+    .team2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (max-width: 680px) {
+    .team2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-y: visible;
+    }
+    .team1{
+        width: 100%;
+    }
+}

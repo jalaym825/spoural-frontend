@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  sgp-frontend:
+    build:
+      context: .
+    container_name: sgp-frontend
+    env_file:
+      - .env
+    ports:
+      - '${PORT}:${PORT}'
+    command: npm run preview

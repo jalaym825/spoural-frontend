@@ -1,0 +1,43 @@
+@media only screen and (max-width: 680px) {
+    .SC1 {
+        width: 650px;
+    }
+
+    .SC12 {
+        width: 50%;
+
+    }
+
+    .SC13 {
+        width: 50%;
+
+    }
+
+    .SC2 {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SC21 {
+        width: 650px;
+        padding: 0;
+
+    }
+
+    .SC22 {
+        width: 650px;
+        padding: 0;
+    }
+
+    .yettobat {
+        width: 650px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .bowling {
+        width: 650px;
+        padding: 0;
+    }
+
+}
