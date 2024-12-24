@@ -16,7 +16,7 @@ const Header = () => {
     };
 
     return (
-        <div className='header1 h-[8vh] bg-primary-color flex items-center justify-between w-full'>
+        <div className='header1 h-[8vh] bg-primary-color flex items-center justify-between w-full z-50'>
             <div className='flex gap-2 font-MateSC ml-3'>
                 <h1 className='logo-text  text-white text-2xl first-letter:text-blue-500 first-letter:text-3xl '><Link to={"/"}>Field</Link></h1>
                 <h1 className='logo-text  text-white  text-2xl first-letter:text-blue-500 first-letter:text-3xl'><Link to={"/"}>And</Link></h1>

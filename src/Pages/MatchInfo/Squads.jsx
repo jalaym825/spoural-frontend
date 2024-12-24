@@ -28,7 +28,7 @@ const Squads = () => {
   }, [])
   return (
     <>
-      <div className='mainsquads p-3 flex flex-col w-full h-[92vh]'>
+      <div className='mainsquads p-3 flex flex-col w-full h-full'>
         <div className='w-full p-2 font-semibold text-2xl font-Jost flex justify-center'>
           Playing XI
         </div>

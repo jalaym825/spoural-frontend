@@ -43,7 +43,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='w-full h-[92vh] relative'>
+    <div className='w-full h-[92vh] relative -z-50'>
       <div className='w-full h-full flex justify-center items-center absolute'>
         <div className='w-[85%] h-[90%] drop-shadow-xl flex flex-col sm:flex-row bg-slate-300 rounded-xl p-4'>
           {/* Placeholder div for left side, add content if necessary */}

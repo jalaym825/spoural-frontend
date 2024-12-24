@@ -47,7 +47,7 @@ const ScoreCard = () => {
             !teamAScore || !teamBScore ?
               <Loader />
               :
-              <div className='w-full flex flex-row p-5'>
+              <div className='w-full flex flex-col p-5 '>
                 <div className='w-[70%] h-full pl-7 pr-7 border-r-2'>
                   <div className='w-full flex flex-row gap-5'>
                     <div className='w-[25%] p-3 font-semibold h-14 rounded-md bg-slate-300 flex items-center font-Outfit flex-row gap-x-4'>
